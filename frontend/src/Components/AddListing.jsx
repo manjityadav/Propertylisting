@@ -26,7 +26,7 @@ const AddListing = () => {
 
     try {
        navigate("/");
-      await axios.post("http://localhost:8000/api/properties", newProperty);
+      await axios.post("https://propertylisting-659i.onrender.com/api/properties", newProperty);
         // Navigate to home
      
       console.log("form subbmitted");
