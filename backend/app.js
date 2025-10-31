@@ -8,8 +8,8 @@ const Property=require('./modules/property.js');
 
 app.use(cors());
 app.use(express.json());
-const uri=process.env.DB_URl;
-mongoose.connect(uri);
+
+mongoose.connect(process.env.DB_URl);
 console.log("db created")
 
 
