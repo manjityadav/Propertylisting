@@ -9,7 +9,7 @@ const Property=require('./modules/property.js');
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect(process.env.DB_URl);
+mongoose.connect("mongodb+srv://manjeetyadav2905_db_user:8hcDu3knQqgBJK8z@propertylisting.skbt26r.mongodb.net/?appName=propertyListing");
 console.log("db created")
 
 
