@@ -12,7 +12,7 @@ const AllListings = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/properties")
+      .get("https://propertylisting-659i.onrender.com/api/properties")
       .then((response) => {
         setInfo(response.data);
         setFilteredInfo(response.data); // initially show all
